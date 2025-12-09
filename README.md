@@ -1,7 +1,3 @@
-# WordInversionDotNetCoreApp
-Given a sentence, the web application provides a few endpoints for inverting the words, storing them, and a search functionality
-
-```
 # Word Inversion API
 
 ASP.NET Core Web API that **inverts words** in sentences and stores all requests in SQL Server.
