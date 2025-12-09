@@ -2,8 +2,6 @@
 
 ASP.NET Core Web API that **inverts words** in sentences and stores all requests in SQL Server.
 
-## 🚀 Quick Start
-
 ## 🔧 Requirements
 
 - .NET SDK 8.x installed  
@@ -20,7 +18,6 @@ dotnet tool uninstall --global dotnet-ef 2> NUL
 dotnet tool install --global dotnet-ef --version 8.0.10 --ignore-failed-sources
 
 Verify:
-
 ```dotnet ef --version```
 
 ## 🚀 First-Time Setup After Clone
@@ -34,7 +31,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update # creates/updates the database
 dotnet run # start the API
 ```
-[Swagger UI](http://localhost:5000/swagger) 
+## URL: [Swagger UI](http://localhost:5000/swagger) 
 
 ## 🔄 Subsequent Runs
 
