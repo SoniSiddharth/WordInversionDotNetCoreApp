@@ -1,0 +1,30 @@
+# Dependencies
+bin/
+obj/
+packages/
+
+# EF Core Migrations (Regenerated on clone)
+**/Migrations/
+
+# User secrets
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# LocalDB (Don't commit database files)
+App_data/
+*.mdf
+*.ldf

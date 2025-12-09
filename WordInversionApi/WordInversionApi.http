@@ -1,0 +1,6 @@
+@WordInversionApi_HostAddress = http://localhost:5230
+
+GET {{WordInversionApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
